@@ -18,12 +18,13 @@ footer {
 .svg-container {
     display: flex;
     width: 50%;
+    padding-bottom: 35px;
     gap: 23px;
     margin-left: 70px;
-    padding-bottom: 35px;
 }
 
 .svg-container img {
+    padding-top: 13px;
     height: auto;
 }
 
