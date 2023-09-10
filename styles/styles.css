@@ -69,13 +69,26 @@ a:hover {
     font-size: 1em;
 }
 
-/*#hidden {
-    opacity: 10%;
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-30%);
+    transition: all 0.7s;
 }
 
-#show {
-    opacity: 5%;
-}*/
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/* detect user's preference for reduced motion in web animations and transitions. */
+
+@media(prefers-reduced-motion) {
+    .hidden{
+        transition: none;
+    }
+}
 
 /* Desktop */
 @media only screen and (min-width: 1400px) {
@@ -128,5 +141,4 @@ a:hover {
     a:hover {
         color: #1B0A41;
     }
-
 }
