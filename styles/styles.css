@@ -7,6 +7,11 @@
     --primary-font: 'Outfit', sans-serif;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     background-image: linear-gradient(65deg, #97D5D5, rgba(145, 147, 222, 0.39), rgba(142, 141, 218, 0.68), rgba(226, 139, 147, 0.72), rgba(138, 209, 209, 0.57));
     background-repeat: no-repeat;
@@ -16,9 +21,8 @@ html {
 body {
     font-family: var(--primary-font);
     color: var(--primary-text-color);
-    margin: 0;
-    width: 100%;
-    height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 * {
@@ -49,7 +53,7 @@ li {
 
 li, a {
     color: var(--primary-text-color);
-    font-size: clamp(2rem, 1.301rem + 1.942vw, 3rem);
+    font-size: clamp(-1rem, 1.301rem + 1.942vw, 1rem);
     text-decoration: none;
     font-weight: bold;
 }
@@ -89,6 +93,10 @@ a:hover {
         min-width: 300px;
         margin: 0;
         padding: 0;
+    }
+
+    li, a {
+        font-size: clamp(2rem, 1.301rem + 1.942vw, 3rem);
     }
 
     .main-info {

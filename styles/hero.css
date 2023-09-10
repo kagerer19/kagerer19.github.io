@@ -19,6 +19,15 @@ article p {
     padding: 0 33px;
 }
 
+.hero-img {
+    max-width: 350px;
+}
+
+.barman-img {
+    width: 350px;
+    padding-left: 45px;
+}
+
 @media only screen and (min-width: 1400px) {
     article {
         display: flex;
