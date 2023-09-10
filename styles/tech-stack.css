@@ -1,0 +1,32 @@
+.tech-stack {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    align-items: center;
+    border: 1px solid #8E8DDA;
+    border-radius: 15px;
+    background-color: rgba(142, 141, 218, 0.71);
+    margin: 11% 9%;
+}
+
+.tech-svg {
+    width: 10%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 1400px) {
+    .tech-svg {
+        width: 10%;
+    }
+
+    .tech-stack {
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 5%;
+        margin-bottom: 0;
+    }
+
+    article p {
+        margin-left: 25%;
+    }
+}
