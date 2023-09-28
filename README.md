@@ -30,6 +30,7 @@ Feel free to explore the different sections of the portfolio. You can navigate t
 
 - HTML
 - CSS
+- JS
 
 ## How to Run
 
