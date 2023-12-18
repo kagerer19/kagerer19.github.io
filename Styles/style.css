@@ -205,6 +205,7 @@ nav{
 }
 .social_icons{
     display: flex;
+    justify-content: center;
     margin-top: 5em;
     gap: 30px;
 }
@@ -385,6 +386,8 @@ h3{
     flex-direction: column;
     width: 30%;
     height: 250px;
+    padding: 7px;
+    text-align: center;
     background: var(--color-white);
     border-radius: 20px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
