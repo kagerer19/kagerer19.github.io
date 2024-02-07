@@ -33,7 +33,7 @@ function myMenuFunction(){
 
 /* ----- TYPING EFFECT ----- */
  let typingEffect = new Typed(".typedText",{
-    strings : ["Developer","Gamer", "Surfer", "Traveller"],
+    strings : ["Developer","Gamer", "Traveller"],
     loop : true,
     typeSpeed : 100, 
     backSpeed : 80,
@@ -44,8 +44,8 @@ function myMenuFunction(){
 /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
  const sr = ScrollReveal({
         origin: 'top',
-        distance: '80px',
-        duration: 2000,
+        distance: '40px',
+        duration: 1500,
         reset: true     
  })
 
@@ -60,6 +60,11 @@ sr.reveal('.featured-image',{delay: 300})
 
 /* -- PROJECT BOX -- */
 sr.reveal('.project-box',{interval: 200})
+
+function linkToGitHub() {
+    const url = "https://github.com/kagerer19?tab=repositories"
+    window.open(url);
+}
 
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})

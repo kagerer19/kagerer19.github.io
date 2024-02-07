@@ -374,8 +374,7 @@ h3{
 .project-container{
     display: flex;
     width: 100%;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .project-box{
@@ -392,6 +391,7 @@ h3{
     border-radius: 20px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     overflow: hidden;
+    cursor: pointer;
 }
 .project-box>i{
     font-size: 50px;
