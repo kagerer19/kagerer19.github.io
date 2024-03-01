@@ -62,10 +62,14 @@ sr.reveal('.featured-image',{delay: 300})
 sr.reveal('.project-box',{interval: 200})
 
 function linkToGitHub() {
-    const url = "https://github.com/kagerer19?tab=repositories"
+    const url = "https://github.com/kagerer19/SME"
     window.open(url);
 }
 
+function linkToDymaxa() {
+    const url = "https://dymaxa-redesign-frontend.vercel.app/"
+    window.open(url);
+}
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})
 
