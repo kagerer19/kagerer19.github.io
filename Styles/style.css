@@ -319,6 +319,10 @@ h3{
     margin-bottom: 15px;
 }
 
+.my-intro{
+    color: var(--second-color);
+}
+
 /* ----- ABOUT INFO ----- */
 .about-info{
     position: relative;
@@ -386,6 +390,7 @@ h3{
     width: 30%;
     height: 250px;
     padding: 7px;
+    margin-bottom: 20px;
     text-align: center;
     background: var(--color-white);
     border-radius: 20px;
@@ -599,8 +604,13 @@ footer{
         align-content: flex-start;
         min-height: 60vh;
     }
+
+    .intro-content {
+        margin-bottom: 2em;
+    }
     .social_icons{
         margin-top: 2em;
+        margin-right: 1em;
     }
 
     .icon a:link,
@@ -614,6 +624,11 @@ footer{
     .btn .links:hover {
         color: white;
     }
+
+    .btn-info-about-me {
+        margin-right: 3em;
+    }
+
     .featured-image{
         order: 1;
         justify-content: center;
@@ -646,6 +661,10 @@ footer{
         width: 80%;
     }
 
+}
+
+.download-btn {
+    margin-right: 3em;
 }
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
